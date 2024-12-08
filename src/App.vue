@@ -1,25 +1,13 @@
 <template>
-
-<div>
-   <FormularioUfms>
-  </FormularioUfms>
-</div>
-
+  <div>
+    <router-view />
+  </div>
 </template>
 
 <script>
-
-import FormularioUfms from './components/Formulario/FormularioUfms.vue' 
-
-export default {
-  components: {
-    FormularioUfms
+  export default {
+    name: "App",
   }
-}
-
-
 </script>
 
-<style>
-
-</style>
+<style></style>
